@@ -15,11 +15,15 @@
 // var a = parseInt(prompt("Enter first number :-"))
 // var b = parseInt(prompt("Enter second number :-"))
 
-var a = prompt("Enter first number :-")
-var b = prompt("Enter second number :-")
+var a = parseInt(prompt("Enter first number :-"))
+var b = parseInt(prompt("Enter second number :-"))
+
+
+// console.log("additon = "+(a+b));
+alert("Addition = "+(a+b))
 
 // var c = a+b;
 
 // console.log("addition ",parseInt(a)+parseInt(b));
 
-alert("Addition = ",a+b)
+// alert("Addition = "+c)

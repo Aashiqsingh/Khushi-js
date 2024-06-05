@@ -12,7 +12,7 @@
 // console.log(x);
 
 
-var str2 = " aashiq"
+// var str2 = " aashiq"
 
 
 // var x = str.concat(str2)
@@ -27,7 +27,7 @@ var str2 = " aashiq"
 // x = 20
 // console.log("msg...",(x+10));
 
-var str = "MerA Bharat mahaan"
+// var str = "MerA Bharat mahaan"
 
 
 // var x = str.startsWith("Me")
@@ -42,10 +42,18 @@ var str = "MerA Bharat mahaan"
 // var x = str.indexOf("M")
 // console.log(x);
 
-var x = str.repeat(2)
-console.log(x);
+// var x = str.repeat(2)
+// console.log(x);
 
 
 // user - fullname = dhirajpoojara
 
 // @dhirajpoojara13
+
+var x = prompt("Enter the fullname")
+
+// var z = '@' + x + x.length
+
+var z = '@'.concat(x)
+var y = z.concat(x.length)
+console.log(y);

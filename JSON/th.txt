@@ -1,0 +1,10 @@
+JSON --> Javascript object notation 
+
+key : value 
+{
+
+    example 
+
+    "name":"khushi",
+    "Email":"khushi@gmail.com"
+}

@@ -17,7 +17,7 @@
 
 
 const employee = {
-    name:"Ayush",
+    "name":"Ayush",
     age:23,
     salary:50000,
     phone:[6789767878 , 672894788898],
@@ -33,6 +33,7 @@ const employee = {
 }
 
 console.log(employee);
+console.log(employee.name);
 console.log(employee.address);
 console.log(employee.address.city);
 console.log(employee.phone[1]);

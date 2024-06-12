@@ -1,0 +1,11 @@
+Function 
+
+There are four type of Function
+1. with return type WITH arguments
+2. with return type no arguments 
+3. without return type no arguments
+4. without return type with arguments
+
+function -- keyword 
+
+return -- return keyword with

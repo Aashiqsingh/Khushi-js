@@ -1,0 +1,5 @@
+JavaScript : single threaded language
+
+Java : multi threaded language
+
+callback

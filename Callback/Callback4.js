@@ -9,6 +9,7 @@ const pngHandler = (fname)=>{
 
 const jpgHandler = (fname)=>{
     console.log("jpgHandler called "+fname);
+    
 }
 
 const Handler = (cb,data)=>{

@@ -1,0 +1,3 @@
+Array is collection of data
+
+Array is hetroginues 

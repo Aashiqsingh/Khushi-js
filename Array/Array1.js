@@ -1,5 +1,5 @@
-// var arr = ["ram " , 34 , "ganesh", true]
-// console.log(arr);
+var arr = ["ram " , 34 , "ganesh", true]
+console.log(arr);
 // console.log(arr[0]);
 // console.log(arr[1]);
 
@@ -10,15 +10,15 @@
 // }
 
 
-var user = ["ram","shyam","seeta","harsh","rahul","tathya","vrusti","jinendra"]
+// var user = ["ram","shyam","seeta","harsh","rahul","tathya","vrusti","jinendra"]
 
-console.log(user);
+// console.log(user);
 
 // for(let i=0;i<user.length;i++){
 //     console.log(user[i]);
 // }
 
-// var x = user.push("khushi")
+// var x = user.push("khushi","")
 // console.log(x);
 
 // var x = user.push("khushi","secret")

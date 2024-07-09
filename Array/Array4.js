@@ -1,4 +1,4 @@
-var users = ["nentcy","khusthi","gatm","tirth","rahtul","tejashty","kristhna","pramod"]
+var users = ["nency","khushi","gam","tirth","rahul","tejash","krishna","pramod"]
 
 // var flag = true;
 // for(let i=0;i<users.length;i++){

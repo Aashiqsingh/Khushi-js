@@ -1,4 +1,4 @@
-var users = ["nency","khushi","gam","tirth","rahul","tejash","krishna","pramod"]
+var users = ["nency", "khushi", "gamaa", "tirtht", "rahul", "tejash", "krishna", "pramod"]
 
 // var flag = true;
 // for(let i=0;i<users.length;i++){
@@ -11,11 +11,25 @@ var users = ["nency","khushi","gam","tirth","rahul","tejash","krishna","pramod"]
 // console.log(flag);
 
 
-var x = users.every((u)=>{
-    return u.length >= 3
-})
+// var x = users.every((u)=>{
+//     return u.length >= 3
+// })
 
+// console.log(x);
+
+// var y = users.every((user)=> user.includes("t"))
+// console.log(y);
+
+
+// var x = users.every((user)=>{
+//     return user.length > 4
+// })
+
+// console.log(x);
+
+var x = users.every((user) => user.startsWith("n"))
 console.log(x);
 
-var y = users.every((user)=> user.includes("t"))
+
+var y = users.some((user) => user.endsWith("t"))
 console.log(y);

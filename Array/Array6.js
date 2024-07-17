@@ -23,6 +23,6 @@ var arr = [44,555,66,354,67,86,43,24]
 // var x = arr.reduce((sum,a)=>{
 
 //     return sum + a
-// },200)
+// },0)
 
 // console.log(x);

@@ -1,0 +1,22 @@
+DOM ---> Document object model 
+
+
+identifiy :
+
+1 . id  --> uniqui
+2. class --> multiplr , duplicate
+3. name  --> duplicate 
+4 . tagname --> duplicate
+5. querryselector  
+
+
+
+mouse event :
+onclick
+ondblclick
+onmouseleave
+onmouseenter
+onmouseover
+onmouseup
+onmousedown
+onmousemove

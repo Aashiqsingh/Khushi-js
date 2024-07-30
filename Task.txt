@@ -1,3 +1,8 @@
 onmousemove : change color 
 
 onclick : increase size of image when dblclick of image then decresed size of image
+
+
+30-07-2024
+
+Task :- if click down the color will be yellow and when up the key color will be red.

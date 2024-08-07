@@ -19,7 +19,7 @@ function submitHandler(event){
     else if(gender[2].checked === true){
         gen = "Other"
     }
-
+r
     var age = document.getElementById("age")
     console.log(age.value);
 

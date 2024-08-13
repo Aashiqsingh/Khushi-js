@@ -16,5 +16,4 @@ box[1].addEventListener("mousemove",()=>{
     var random = Math.floor(Math.random() * 100000)
     console.log(random);
     
-
 })

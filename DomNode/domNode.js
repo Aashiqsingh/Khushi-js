@@ -49,8 +49,6 @@ const getdata = ()=>{
 
     setTimeout(()=>{
 
-    
-
     for(let i=0;i<employees.length;i++)
     {
         let tr = document.createElement("tr")
@@ -76,6 +74,8 @@ const getdata = ()=>{
         tr.appendChild(tdAge)
         tr.appendChild(tdDepartment)
         tr.appendChild(tdSalary)
+
+
     }
 
 },3000)

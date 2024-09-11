@@ -1,0 +1,19 @@
+Promise --  pending /Fullfill / reject 
+
+Promise -- class --- object
+
+
+- Synchronous
+
+1. block -- then or catch
+2. function -- async or await
+
+
+- non - Synchronous.
+
+Javascript bydefault non-sync.
+
+##########################  -- 10s
+****************************
+
+#*#*#*

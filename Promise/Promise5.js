@@ -19,6 +19,7 @@ const order = ()=>{
 
 }
 
+
 const payment = (option)=>{
 
     console.log("Amount is about to be payying...");
@@ -40,6 +41,7 @@ const payment = (option)=>{
 order().then((data)=>{
     console.log("data...",data);
     
+    
     payment(data).then((res)=>{
         console.log("payement successful ...",res);
         
@@ -47,6 +49,9 @@ order().then((data)=>{
         console.log("payment failed ...",error);
         
     })
+
+    console.log("ending the payment request...");
+    
 }).catch((err)=>{    
     console.log("order failed...",err);
     

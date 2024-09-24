@@ -1,0 +1,9 @@
+Api -- Application programming interface 
+
+
+Api :
+Get Api -- 
+Post Api -- 
+Delete Api -- 
+Patch Api -- 
+put Api -- 

@@ -54,6 +54,7 @@ const getData = async()=>{
             if(response2.status === 204){
                 alert("User deleted successfully!!!")
                 data()
+                location.reload();
             }
             
             
@@ -76,8 +77,10 @@ const getData = async()=>{
     
 }
 
+
+
 function data(){
-    getData()  
+    getData()
 }
 
 getData()

@@ -1,6 +1,11 @@
 var btn = document.getElementById("btn");
+
+// var err = ["khushi@gmail.com","aashiq@gmail.com","dev@gmail.com"]
+var pushArr = []
+
 btn.addEventListener("submit",(event)=>{
     event.preventDefault();
+
 
     var name = document.getElementById("name")
     var email = document.getElementById("email")
@@ -15,14 +20,29 @@ btn.addEventListener("submit",(event)=>{
     var userNameRegex = /[A-Za-z]+[0-9]+/;
     const regex = /^[a-zA-Z0-9_]+@[a-z.]+\.[a-z]+$/;
 
+    
+    pushArr = pushArr.push(email.value)
 
-    if(email.value.match(regex)){
-        emailErr.innerHTML = ""
+    if(pushArr.includes(email.value)){
+        emailErr.innerHTML = "Email already exists"
     }
     else{
-        emailErr.innerHTML = "Invalid email address"
+        emailErr.innerHTML = ""
     }
+    // if(email.value.match(regex)){
+    //     emailErr.innerHTML = ""
+    // }
+    
+    // else{
+    //     emailErr.innerHTML = "Invalid email address"
+    // }
 
+    // if(err.includes(email.value)){
+    //     emailErr.innerHTML = "Email already exists"
+        
+    // }else{
+    //     emailErr.innerHTML = ""
+    // }
 
 
     // if(name.value.length < 3){
